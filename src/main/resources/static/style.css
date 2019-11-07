@@ -1,0 +1,95 @@
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  display: block;
+  width: 100%;
+  margin: 0 0 1em;
+  overflow-x: auto;
+}
+
+table thead th {
+  border: 1px solid #d0d0d0;
+  padding: 6px 13px;
+  line-height: 2;
+  border-width: 1px 0 2px 1px;
+  font-weight: bold;
+}
+
+table thead th:last-child {
+  border-right: 1px solid #d0d0d0;
+}
+
+table thead tr {
+  background-color: #fff;
+}
+
+.dark thead tr {
+  background-color: #1f1f1f;
+}
+
+table tbody tr:nth-child(2n + 1) {
+  background-color: #f9f9f9;
+}
+
+.dark tbody tr:nth-child(2n + 1) {
+  background-color: #1f1f1f;
+}
+
+table tbody tr {
+  background-color: #fff;
+}
+
+.dark tbody tr {
+  background-color: #1f1f1f;
+}
+
+table tbody td {
+  padding: 6px 13px;
+  line-height: 1.8;
+
+  border-style: solid;
+  border-width: 0 0 1px 1px;
+  border-color: #d0d0d0;
+}
+
+table tbody td:last-child {
+  border-right: 1px solid #d0d0d0;
+}
+
+#privacy-reminder {
+  color: #666;
+}
+
+#content {
+  margin: 50px 10% 0px 10%;
+  width: 80%;
+}
+
+@media screen and (max-width:1000px) {
+  #content {
+    margin: 15px 5% 0px 5%;
+    width: 90%;
+  }
+}
+
+.dark {
+  background-color: #343a40;
+  color: white;
+}
+
+.dark .dropdown-menu {
+  background-color: #0e141a;
+  color: white;
+}
+
+.dark .dropdown-item {
+  color: white;
+}
+
+.dark .dropdown-menu a:hover {
+    background-color: #5e646b;
+}
+
+.row .col-12 {
+  margin-top: 20px;
+}
