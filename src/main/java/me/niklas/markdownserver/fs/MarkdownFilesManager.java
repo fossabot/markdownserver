@@ -69,7 +69,7 @@ public class MarkdownFilesManager {
         List<String> folders = new ArrayList<>();
 
         for (File dir : rd.listFiles()) {
-            if (!dir.isDirectory() || dir.getName().equals("resources")) continue;
+            if (!dir.isDirectory() || dir.getName().equals("resources") || dir.getName().startsWith(".")) continue;
             folders.add(dir.getName());
         }
 
